@@ -1,0 +1,6 @@
+Debug
+*.opendb
+*.suo
+*.VC.db
+*.opensdf
+*.sdf
