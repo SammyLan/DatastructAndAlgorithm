@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="TwoSum.cpp" />
   </ItemGroup>
   <ItemGroup>

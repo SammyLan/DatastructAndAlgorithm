@@ -19,10 +19,10 @@ public:
 	vector<int> twoSumByMap(vector<int> &num, int target) {
 		unordered_map<int, int> mapping;
 		vector<int> result;
-		for (int i = 0; i < num.size(); i++) {
+		for (int i = 0; i < (int)num.size(); i++) {
 			mapping[num[i]] = i;
 		}
-		for (int i = 0; i < num.size(); i++) {
+		for (int i = 0; i < (int)num.size(); i++) {
 			const int gap = target - num[i];
 			unordered_map<int, int>::iterator it = mapping.find(gap);
 			if (it != mapping.end() && it->second != i) {
@@ -38,7 +38,7 @@ public:
 		vector<pair<int, int>>  tmp(num.size());
 		for (size_t i = 0; i < num.size(); i++) {
 			tmp[i].first = num[i];
-			tmp[i].second = i;
+			tmp[i].second = (int)i;
 		}
 		//ÅÅÐò
 		std::sort(tmp.begin(), tmp.end(), [](const pair<int, int> & a, const pair<int, int> & b) -> bool {
