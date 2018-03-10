@@ -22,6 +22,9 @@
     <ClCompile Include="LongestPalindromicSubstring.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="ZigZagConversion.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ComonDef.h">

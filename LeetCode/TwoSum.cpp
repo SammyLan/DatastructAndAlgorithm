@@ -63,7 +63,7 @@ public:
 };
 NAMESPACE_ANONYMOUS_END()
 
-void twoSum_Test() {
+void testTwoSum() {
 	vector<int> num{ -3,4,3,90 };
 	int target = 0;
 	Solution sln;

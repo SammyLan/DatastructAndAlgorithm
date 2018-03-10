@@ -1,11 +1,12 @@
 #include<cstdlib>
 
-void twoSum_Test();
-void findMedianSortedArrays_Test();
-
+void testTwoSumt();
+void testFindMedianSortedArrays();
+void testZigZagConversion();
 int main() {
-	//twoSum_Test();
-	findMedianSortedArrays_Test();
+	//testTwoSum;
+	//testFindMedianSortedArrays;
+	testZigZagConversion();
 	std::system("pause");
 	return 0;
 }
