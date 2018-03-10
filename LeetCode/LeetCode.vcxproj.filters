@@ -4,9 +4,11 @@
     <Filter Include="src">
       <UniqueIdentifier>{eb049cbb-1768-41be-819f-e9ec9e0f2856}</UniqueIdentifier>
     </Filter>
+    <Filter Include="build">
+      <UniqueIdentifier>{8e0ca680-ac37-4c31-b5a1-ada77ac42a82}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="TwoSum.cpp">
       <Filter>src</Filter>
     </ClCompile>
@@ -28,10 +30,13 @@
     <ClCompile Include="ReverseInteger.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>build</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ComonDef.h">
-      <Filter>src</Filter>
+    <ClInclude Include="..\ComonDef.h">
+      <Filter>build</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
