@@ -26,6 +26,7 @@
     <ClCompile Include="Searcha2DMatrix.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="ZigZagConversion.cpp" />
+    <ClCompile Include="ReverseInteger.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ComonDef.h" />

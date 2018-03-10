@@ -18,6 +18,10 @@ using namespace std;
 
 
 /*
+#include "ComonDef.h"
+
+//
+
 NAMESPACE_ANONYMOUS_BEGIN()
 
 
