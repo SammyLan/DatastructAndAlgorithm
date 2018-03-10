@@ -16,6 +16,12 @@
     <ClCompile Include="MedianOfTwoSortedArrays.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="Searcha2DMatrix.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestPalindromicSubstring.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ComonDef.h">
