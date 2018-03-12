@@ -152,6 +152,7 @@
   <ItemGroup>
     <ClCompile Include="LintCode.cpp" />
     <ClCompile Include="LongestCommonSubsequence.cpp" />
+    <ClCompile Include="LongestCommonSubstring.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ComonDef.h" />

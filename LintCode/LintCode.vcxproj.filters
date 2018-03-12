@@ -19,6 +19,9 @@
     <ClCompile Include="LongestCommonSubsequence.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="LongestCommonSubstring.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ComonDef.h">

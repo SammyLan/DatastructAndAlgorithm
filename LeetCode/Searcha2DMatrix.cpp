@@ -9,25 +9,27 @@ public:
 		if (matrix.empty()) {
 			return false;
 		}
-		size_t const m = matrix.size();
-		size_t const n = matrix.front().size();
-		int low = 0;
-		int hi = m * n;
-		while (low < hi) {
-			int mid = (low + hi) / 2;
-			int i = mid / n;
-			int j = mid % n;
-			int val = matrix[i][j];
-			if (val == target ) {
+		int row = matrix.size();
+		int col = matrix[0].size();
+		int i = 0;
+		int j = col - 1;
+		while (i < row && j >= 0) {
+			if (matrix[i][j] == target) {
 				return true;
 			}
-			if (val < target) {
-				low = mid + 1;
+			if (matrix[i][j] > target) {
+				--j;
 			} else {
-				hi = mid;
+				++i;
 			}
 		}
+
 		return false;
 	}
 };
 NAMESPACE_ANONYMOUS_END();
+
+void testSearcha2DMatrix(){
+	Solution sln;
+	cout << sln.searchMatrix({ {1,4}, {2,5} },2) << endl;;
+}
