@@ -8,6 +8,9 @@
     <Filter Include="STL">
       <UniqueIdentifier>{a9adca1b-46d9-4645-8f29-2046262d40c8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{435f2a75-7733-4c54-bc43-c9f3d2e99b5d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataStruct.cpp">
@@ -15,6 +18,9 @@
     </ClCompile>
     <ClCompile Include="test_priority_queue.cpp">
       <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="gcd.cpp">
+      <Filter>Algorithm</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
