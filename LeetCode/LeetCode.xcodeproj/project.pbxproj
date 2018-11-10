@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DBC32BA7219724D0003AAF84 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBC32BA6219724D0003AAF84 /* main.cpp */; };
+		DBC32BB021972612003AAF84 /* KthLargestElementinAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBC32BAE21972612003AAF84 /* KthLargestElementinAnArray.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DBC32BA3219724D0003AAF84 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC32BA6219724D0003AAF84 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DBC32BAE21972612003AAF84 /* KthLargestElementinAnArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KthLargestElementinAnArray.cpp; sourceTree = "<group>"; };
+		DBC32BAF21972612003AAF84 /* KthLargestElementinAnArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KthLargestElementinAnArray.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,19 @@
 		DBC32BA5219724D0003AAF84 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				DBC32BAD219725DF003AAF84 /* Src */,
 				DBC32BA6219724D0003AAF84 /* main.cpp */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		DBC32BAD219725DF003AAF84 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				DBC32BAE21972612003AAF84 /* KthLargestElementinAnArray.cpp */,
+				DBC32BAF21972612003AAF84 /* KthLargestElementinAnArray.hpp */,
+			);
+			path = Src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBC32BA7219724D0003AAF84 /* main.cpp in Sources */,
+				DBC32BB021972612003AAF84 /* KthLargestElementinAnArray.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
